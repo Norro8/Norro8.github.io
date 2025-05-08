@@ -92,3 +92,9 @@ li {
     display: flex;              /* Enable Flexbox */
     justify-content: center;    /* Center items horizontally */
 }
+
+/* Maps */
+#map {
+    height: 600px;
+    width: 100%;
+  }
