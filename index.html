@@ -5,7 +5,10 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Travel Blog Home</title>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+    crossorigin=""/>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body class="default-theme">
     <div class="topnav">
@@ -14,7 +17,13 @@
         <a href="Person-2/">Person 2</a>
     </div> 
     <h1 class="page-title">Home</h1>
-    <!--<script src="app.js"></script>-->
+    <p>Test Map</p>
+    <div id="map"></div>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+    integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+    crossorigin=""></script>
+    <script src="app.js"></script>
     <!--<noscript>You need to enable JavaScript to view the full site.</noscript>-->
-</body>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1619.194692370956!2d139.63597047123653!3d35.74123299757533!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDQ0JzI4LjQiTiAxMznCsDM4JzEyLjMiRQ!5e0!3m2!1sen!2sca!4v1746681810803!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </body>
 </html>
