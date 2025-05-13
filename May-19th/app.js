@@ -29,10 +29,8 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Add markers (replace with your own travel coordinates)
 const places = [
-  { name: "Edmonton Airport, Canada", coords: [53.302365, -113.577730] },
-  { name: "Calgary Airport, Canada", coords: [51.123463, -114.005797] },
-  { name: "Narita Airport, Japan", coords: [35.770082, 140.382287] },
-  { name: "Shinjuku Station, Tokyo", coords: [35.6895924, 139.7004131] }
+  { name: "Tokyo, Japan", coords: [35.6895, 139.6917] },
+  { name: "Tokyo, Japan", coords: [30.6895, 139.6917] }
 ];
 
 const lineCoords = places.map(place => place.coords);
